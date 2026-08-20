@@ -4,7 +4,8 @@
   "description": "WordPress Developer & Elementor Specialist personal portfolio website.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "vite build"
   },
   "keywords": [
     "portfolio",
@@ -14,5 +15,8 @@
     "css"
   ],
   "author": "Sarah Yaseen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^8.2.2"
+  }
 }
